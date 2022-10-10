@@ -1,0 +1,18 @@
+.feedback__options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback__btn {
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+
+}
+
+.feedback__btn:hover {
+    background-color: lightblue;
+
+
+}
