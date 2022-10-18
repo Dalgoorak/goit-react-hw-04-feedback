@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Notification.module.css';
 
-function Notification({ message }) {
+export function Notification({ message }) {
   return (
     <div>
       <p className={css.message}>{message}</p>
@@ -12,5 +12,3 @@ function Notification({ message }) {
 Notification.prototype = {
   message: PropTypes.string.isRequired,
 };
-
-export default Notification;
