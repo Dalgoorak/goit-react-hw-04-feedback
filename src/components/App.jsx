@@ -28,7 +28,6 @@ export default class App extends React.Component {
 
   onBtnClick = event => {
     const option = event.target.name;
-    console.log(option);
     this.setState(prevState => ({ [option]: prevState[option] + 1 }));
   };
 
